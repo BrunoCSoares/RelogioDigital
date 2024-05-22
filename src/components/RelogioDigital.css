@@ -1,0 +1,18 @@
+.estrutura{
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color: rgb(29, 13, 0);
+    padding: 10px 100px 50px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.visor{
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 8px 30px;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+}
+

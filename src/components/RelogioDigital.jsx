@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'; 
+import './RelogioDigital.css'
   
 function RelogioDigital() { 
   const [hora, setHora] = useState(new Date().toLocaleTimeString()); 
@@ -12,10 +13,12 @@ function RelogioDigital() {
   }, []); 
   
   return ( 
-    <div> 
+    <div className="estrutura">
       <h2>Relógio Digital</h2> 
-      <p>{hora}</p> 
-    </div> 
+      <div className='visor'> 
+        <p>{hora}</p> 
+      </div> 
+    </div>
   ); 
 } 
   
